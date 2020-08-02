@@ -64,7 +64,8 @@
                     <li>Color Picker</li>
                     <li>Adobe Illustrator</li>
                 </ul>
-                <span></span>
+                <h5>Check the code</h5>
+                <a href="https://github.com/yusnardo/portfolio-website">Github</a>
             </article>
         </div>
 

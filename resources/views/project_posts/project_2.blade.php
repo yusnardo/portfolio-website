@@ -42,9 +42,16 @@
             </article>
             <img class='post-image' src="{{URL::asset('assets/project2.png')}}" alt="price vs member_duration_days">
             <article>
-                <span>tes</span>
+                <h5>Goals</h5>
+                <ul>
+                    <li>Predict whether customer booked hotel with flight transaction or not.</li>
+                    <li></li>
+                </ul>
+
+                <h5>Check the dataset</h5>
+                <a href="https://drive.google.com/drive/folders/1xPmM1OlunZAHo9HfIxCvncZ2cZxJAgi3?usp=sharing">Datasets</a>
+                <h5>Check the project</h5>
                 <a target='_blank' href="{{route('project_2_code') }}">Open the Jupyter Notebook</a>
-                
             </article>
         </div>
 
