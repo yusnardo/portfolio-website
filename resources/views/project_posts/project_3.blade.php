@@ -42,7 +42,30 @@
             </article>
             <img class='post-image' src="{{URL::asset('assets/timetabling.png')}}" alt="Timetabling Problem">
             <article>
-                <span>tes</span>
+                <span>Secara umum penjadwalan ujian dilakukan secara manual dan membutuhkan waktu yang cukup lama. 
+                    Banyak penelitian yang telah dilakukan untuk menemukan strategi yang paling tepat untuk menyusun jadwal dengan baik. 
+                    Hill Climbing, Simulated Annealing, Great Deluge, dan Tabu Search merupakan algoritma yang digunakan dalam penelitian ini. 
+                    Simple random digunakan sebagai metode untuk memilih low level heuristic yang digunakan. 
+                    Dataset Carter (Toronto) digunakan sebagai bahan pengujian. Setiap algoritma akan dijalankan sebanyak 200.000 iterasi yang akan dibandingkan. 
+                    Hasil yang diperoleh menunjukan Simulated Annealing dengan menggunakan Kempe Chain sebagai low level heuristic mampu memberikan hasil yang lebih baik dibandingkan dengan algoritma lainnya. 
+                    Namun algoritma heuristic lainnya juga mampu bersaing dengan mendominasi pada dataset tertentu.</span>
+                <h5>Goals</h5>
+                <ul>
+                    <li>Exam timetabling problem dalam dataset Toronto, berisi exam yang akan ditempatkan dalam slot waktu tertentu dan penempatannya harus memenuhi constraint yang ada (soft constraint dan hard constraint).</li>
+                    <li>Untuk hard constraint, tidak boleh ada siswa yang dijadwalkan untuk mengikuti lebih dari satu ujian pada periode waktu yang sama.</li>
+                    <li>Ketika hard constraint sudah dipenuhi, lalu digunakan fungsi objektif untuk memperkecil nilai penalty-nya. Nilai penalty diperoleh dari seberapa besar soft constraint yang dilanggar.</li>
+                </ul>
+
+                <h5>Algorithm</h5>
+                <ul>
+                    <li>Hill Climbing</li>
+                    <li>Simulated Annealing</li>
+                    <li>Great Deluge</li>
+                    <li>Tabu Search</li>
+                    <li>Some low level heuristic</li>
+                </ul>
+                <h5>Check my paper</h5>
+                <a target='_blank' href="https://drive.google.com/file/d/1K5Bqjf3u7aC4GZLrSLZ6CD7qnbanEOPM/view?usp=sharing">Paper here</a>
             </article>
         </div>
 

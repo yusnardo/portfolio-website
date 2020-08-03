@@ -42,7 +42,38 @@
             </article>
             <img class='post-image' src="{{URL::asset('assets/demion.png')}}" alt="Demion">
             <article>
-                <span>tes</span>
+                <span>Demion merupakan sebuah template e-learning. 
+                    Pada project ini terdapat fitur-fitur lengkap yang dibutuhkan sebagai situs e-leaning antara lain adalah
+                    fitur autentikasi yang terhubung dengan database, fitur untuk menampilkan course, 
+                    fitur untuk melakukan pembayaran, dan lainnya.
+                </span>
+                <span>The password will be encripted, and you can reset your password with your email.</span>
+                <img class='post-image' src="{{URL::asset('assets/demion_database.png')}}" alt="Database">
+                <h5>Technology</h5>
+                <ul>
+                    <li>Laravel 5</li>
+                    <li>Bootstrap</li>
+                    <li>Mailgun</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Color Picker</li>
+                    <li>Adobe Illustrator</li>
+                    <li>etc</li>
+                </ul>
+                <div class="alert alert-info" role="alert">
+                    Dikarenakan server yang digunakan tidak berbayar/free, sehingga terdapat batas waktu server hidup dalam sehari. 
+                    Apabila fungsi register tidak dapat anda gunakan maka anda dapat menggunakan akun dibawah ini.
+                    <bold>Username</bold>: yus71newbie@gmail.com
+                    <bold>Password</bold>: 1234512345
+                </div>
+                <div class="alert alert-warning" role="alert">
+                    This project was created in 2018 and was not updated, so some of the functions have trouble to load.
+                </div>
+                <h5>Check the website</h5>
+                <a href="http://demion.herokuapp.com/" target='_blank'>http://demion.herokuapp.com/</a>
+                <h5>Check the code</h5>
+                <a href="https://github.com/yusnardo/demion" target='_blank'>Github</a>
             </article>
         </div>
 

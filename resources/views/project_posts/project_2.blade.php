@@ -45,11 +45,30 @@
                 <h5>Goals</h5>
                 <ul>
                     <li>Predict whether customer booked hotel with flight transaction or not.</li>
-                    <li></li>
+                    <li>Build accurate prediction model.</li>
+                </ul>
+                <h5>Feature Description</h5>
+                <ul>
+                    <li>account_id: Unique key of tiket.com customer</li>
+                    <li>order_id: Order_id</li>
+                    <li>member_duration_days: No of days since customer registered</li>
+                    <li>gender: Gender</li>
+                    <li>trip: Type of trip</li>
+                    <li>service_class: Flight service class</li>
+                    <li>price: Flight price</li>
+                    <li>is_tx_promo: Promotion indicator of the flight transaction</li>
+                    <li>no_of_seats: No of seats purchased</li>
+                    <li>airlines_name: Airlines name(encoded)</li>
+                    <li>route: Flight route</li>
+                    <li>payment_day_of_year: Day of year when transaction is made</li>
+                    <li>hotel_id: Unique key of hotel purchased for the trip</li>
+                    <li>visited_city: List of cities that have been visited by the customer</li>
+                    <li>log_transaction: List of amount that have been spent by the customer</li>
+                    <li>is_cross_sell: Whether customer booked hotel with flight transaction or not</li>
                 </ul>
 
                 <h5>Check the dataset</h5>
-                <a href="https://drive.google.com/drive/folders/1xPmM1OlunZAHo9HfIxCvncZ2cZxJAgi3?usp=sharing">Datasets</a>
+                <a target='_blank' href="https://drive.google.com/drive/folders/1xPmM1OlunZAHo9HfIxCvncZ2cZxJAgi3?usp=sharing">Datasets</a>
                 <h5>Check the project</h5>
                 <a target='_blank' href="{{route('project_2_code') }}">Open the Jupyter Notebook</a>
             </article>
