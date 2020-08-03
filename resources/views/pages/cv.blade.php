@@ -35,15 +35,15 @@
 
         <p><code class="highlighter-rouge">June 2018 - August 2018</code>
         <strong>Software Engineer Intern</strong>, <em>PT. Sribu Digital Kreatif</em><br>Jakarta, Indonesia.</p>
-        <p>Tes bro</p>
+        <p>Revamp and design pricing table website in Sribu.com using Ruby, HTML, CSS, and Java script. Collaborate with IT Manager to revamp the transaction list, order detail, and payment method.</p>
 
         <p><code class="highlighter-rouge">January 2018 - Mey 2018</code>
         <strong>Operation System Teaching Assistant</strong>, <em>Information System, iTS</em><br>Surabaya, East Java.</p>
-        <p>Tes bro</p>
+        <p>I teach basic of operation system (Windows and Linux), make learning path, and evaluate.</p>
 
         <p><code class="highlighter-rouge">January 2018 - Mey 2018</code>
         <strong>Statistic Teaching Assistant</strong>, <em>Information System, ITS/em><br>Surabaya, East Java.</p>
-        <p>Tes bro</p>
+        <p>Teach about statistic and SPSS program to statistic participant.</p>
 
         <h2 id="achievements">Achievements</h2>
 
